@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%; /* Make the entire viewport take up 100% height */
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  min-height: 100vh; /* Set minimum height to viewport height */
+}
+
+footer {
+  flex: 0 0 auto; /* Makes footer shrink to fit content */
+}
